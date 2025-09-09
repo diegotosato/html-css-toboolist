@@ -68,19 +68,28 @@ body {
     border-radius: 50%;
 }
 
-.tag{
+.tag {
     padding: 7px 12px;
     border-radius: 15px;
     color: white;
     font-size: 1.2rem;
 }
 
-.editorial{
+.editorial {
     background-color: var(--editorial-tag);
 }
 
+.q1goals {
+    background-color: var(--q1goals-tag);
+}
 
+.recruiting {
+    background-color: var(--recruiting-tag);
+}
 
+.mobile{
+    background-color: var(--mobile-tag);
+}
 
 
 
@@ -126,12 +135,17 @@ button {
     color: gray;
     padding: 7px 12px;
     border-radius: 8px;
+    font-size: 1.2rem;
 }
 
 button:hover {
     color: white;
     background-color: var(--add-button-hover);
     border: 1px solid var(--add-button-hover);
+}
+
+.tasks {
+    margin-bottom: 50px;
 }
 
 .task_importance {
@@ -141,9 +155,9 @@ button:hover {
     margin-bottom: 10px;
 }
 
-.task_description{
+.task_description {
     color: var(--text-color);
     font-size: 1.5rem;
     line-height: 1.5rem;
+    margin-bottom: 30px;
 }
-
