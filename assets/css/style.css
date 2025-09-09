@@ -18,7 +18,7 @@ body {
 
 /* Utilities */
 :root {
-    --body-bgc: #f6f8f9;
+    --body-bgc: #e9eaeb;
     --add-button-hover: #47adf1;
     --editorial-tag: #45abe9;
     --q1goals-tag: #9c72e4;
@@ -130,12 +130,13 @@ header {
 
 main {
     width: 80%;
-    margin: 0 auto;
+    margin: 50px auto 30px;
+    border-radius: 15px;
 }
 
 #buttons {
     padding: 20px 0;
-    border-bottom: 1px solid var(--body-bgc);
+    border-bottom: 3px solid var(--body-bgc);
 }
 
 button {
