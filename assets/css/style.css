@@ -5,7 +5,16 @@
 }
 
 
-
+:root{
+    --main-bgc: #f6f8f9;
+    --add-button-hover: #47adf1;
+    --editorial-tag: #45abe9;
+    --q1goals-tag: #9c72e4;
+    --recruiting-tag: #64c0a9;
+    --mobile-tag: #f29e33;
+    --website-tag: #d863a0;
+    --sales-tag: #b0c926;
+}
 
 
 /* Header */
