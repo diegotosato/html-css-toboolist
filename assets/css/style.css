@@ -91,6 +91,14 @@ body {
     background-color: var(--mobile-tag);
 }
 
+.website{
+    background-color: var(--website-tag);
+}
+
+.sales{
+    background-color: var(--sales-tag);
+}
+
 
 
 /* Header */
