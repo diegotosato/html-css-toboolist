@@ -1,12 +1,16 @@
+/* Generics */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-:root{
-    --main-bgc: #f6f8f9;
+
+/* Utilities */
+:root {
+    --body-bgc: #f6f8f9;
     --add-button-hover: #47adf1;
     --editorial-tag: #45abe9;
     --q1goals-tag: #9c72e4;
@@ -16,13 +20,33 @@
     --sales-tag: #b0c926;
 }
 
+body {
+    background-color: var(--body-bgc);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bgc-white {
+    background-color: white;
+}
+
+.b-radius-15 {
+    border-radius: 15px;
+}
+
+
+
+
 
 /* Header */
 header {
     height: 150px;
 }
 
-.author{
+.author {
     height: 100%;
     margin-left: 50px;
 }
@@ -40,3 +64,30 @@ header {
     vertical-align: middle;
     line-height: 150px;
 }
+
+
+/* Main */
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#buttons {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--body-bgc);
+}
+
+button {
+    border: 1px solid gray;
+    color: gray;
+    padding: 7px 12px;
+    border-radius: 8px;
+}
+
+button:hover{
+    color: white;
+    background-color: var(--add-button-hover);
+    border: 1px solid var(--add-button-hover);
+}
+
