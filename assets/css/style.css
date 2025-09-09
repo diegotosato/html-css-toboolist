@@ -7,6 +7,14 @@
 }
 
 
+body {
+    background-color: var(--body-bgc);
+}
+
+
+
+
+
 
 /* Utilities */
 :root {
@@ -18,10 +26,7 @@
     --mobile-tag: #f29e33;
     --website-tag: #d863a0;
     --sales-tag: #b0c926;
-}
-
-body {
-    background-color: var(--body-bgc);
+    --text-color: #444851;
 }
 
 .container {
@@ -33,9 +38,47 @@ body {
     background-color: white;
 }
 
-.b-radius-15 {
+/* .b-radius-15 {
     border-radius: 15px;
+} */
+
+.triangle_down {
+    line-height: 1rem;
 }
+
+.check {
+    display: inline-block;
+    border: 1px solid green;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: green;
+    border-radius: 50%;
+}
+
+.cross {
+    display: inline-block;
+    border: 1px solid red;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: red;
+    border-radius: 50%;
+}
+
+.tag{
+    padding: 7px 12px;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.editorial{
+    background-color: var(--editorial-tag);
+}
+
 
 
 
@@ -85,9 +128,22 @@ button {
     border-radius: 8px;
 }
 
-button:hover{
+button:hover {
     color: white;
     background-color: var(--add-button-hover);
     border: 1px solid var(--add-button-hover);
+}
+
+.task_importance {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.task_description{
+    color: var(--text-color);
+    font-size: 1.5rem;
+    line-height: 1.5rem;
 }
 
